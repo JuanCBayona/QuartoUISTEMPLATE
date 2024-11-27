@@ -110,7 +110,7 @@ Podemos incluir varios formatos de imagen
 ## <span style="color:#FF5733;">Tablas</span> {background-image="https://sb.kaleidousercontent.com/67418/1920x1100/2ed9107761/bg.png"}
 
 <div class="content-wrapper">
-<p>Here is an example of a beautifully styled and larger table:</p>
+<p>Es también fácil crear tablas con distintos estilos:</p>
 
 <table class="pretty-table">
   <thead>
