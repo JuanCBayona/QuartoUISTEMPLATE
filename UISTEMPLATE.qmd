@@ -1,0 +1,285 @@
+---
+title: "Introducción a QUARTO"
+subtitle: "Semillero PredicPath"
+author: David E. Romo B.
+institute: Universidad Industrial de Santander
+
+format: 
+  revealjs:
+    css: styles.css
+    logo: images/institutional/Logostitle.png
+    transition: fade
+    slide-number: c
+    show-slide-number: all
+    
+title-slide-attributes:
+  data-background-image: /images/institutional/background.png
+  data-background-size: cover
+  data-background-position: center
+
+---
+# <span style="color: white;">¿Qué es QUARTO? {background-image="images/institutional/SectionBack.png"}
+
+## ¿Qué es QUARTO? {background-image="images/institutional/background.png"}
+<div class="content-wrapper">
+Se trata de un <b>sistema de publicación científica</b> de código abierto que permite:
+
+- Crear documentos
+- Sitios web
+- Presentaciones
+- Libros
+- PDFs
+- Entre otros
+</div>
+
+
+::: notes
+Leer esta diapositiva tal como viene. Esta presentación usa el formato revealjs
+:::
+
+## ¿Qué es QUARTO? {background-image="images/institutional/background.png"}
+<div class="content-wrapper">
+El tipo de producto que se genera con QUARTO depende del formato que se use. Por ejemplo, esta presentación utiliza
+
+<img src="images/examples/revealjs.png">
+</div>
+
+
+::: notes
+Con revealjs se pueden crear presentaciones basadas en HTML
+:::
+
+## ¿Qué es QUARTO? {background-image="images/institutional/background.png"}
+<div class="content-wrapper">
+Ejemplos de los demás formatos son:
+
+<table class = "table1">
+  <tr>
+    <th>Documentos</th>
+    <th>Websites</th>
+    <th>Notebooks Interactivos</th>
+    <th>EPUB</th>
+  </tr>
+  <tr>
+    <td><img src="images/examples/pdf.png"></td>
+    <td><img src="images/examples/website.png"></td>
+    <td><img src="images/examples/jupyter.png"></td>
+    <td><img src="images/examples/epub.png"></td>
+  </tr>
+</table>
+
+</div>
+
+
+::: notes
+Observar los ejemplos
+:::
+
+# <span style="color: white;">¿Qué opciones de personalización existen? {background-image="images/institutional/SectionBack.png"}
+
+
+## <span style="color:#FF5733;">Personalización</span>  {background-image="https://www.veeforu.com/wp-content/uploads/2022/08/Blue-texture-background-free-download..jpg"}
+<div class="content-wrapper">
+<span style="color: white;">Con el uso de <b>enlaces web</b>, podemos cambiar la imagen de background con facilidad.</span>
+
+<p><span style="color: white;"> Es también <span style="color:#74e964; font-size:150%;">posible usar</span> <b>tags HTML</b> para <i>personalizar</i> los textos.</span></p>
+
+<p><span style="color: white;">Podemos también incluir imágenes en cualquier tamaño desde la web!</span></p>
+
+<p><img src="https://pastatic.picsart.com/cms-pastatic/1325ef30-1648-451b-b68e-8183c2ef6f70.png?type=webp&to=min&r=450" width="200" height="200"></p>
+
+
+</div>
+
+::: notes
+Con QUATRO podemos cambiar fácilmente las imágenes de background por medio de un enlace web
+:::
+
+## <span style="color:#FF5733;">Imágenes animadas</span>  {background-image="https://marketplace.canva.com/EAFZcmTpKas/1/0/1600w/canva-video-intro-portada-fondo-background-simple-rosa-dorado-U93tpA4NMDA.jpg"}
+<div class="content-wrapper2">
+<span style="color: black;">Podemos utilizar imágenes en formato GIF:</span>
+<p><img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/41810341995087.57bd505fc7b34.gif"></p>
+
+
+</div>
+
+::: notes
+Podemos incluir varios formatos de imagen
+:::
+
+## <span style="color:#FF5733;">Tablas</span> {background-image="https://sb.kaleidousercontent.com/67418/1920x1100/2ed9107761/bg.png"}
+
+<div class="content-wrapper">
+<p>Here is an example of a beautifully styled and larger table:</p>
+
+<table class="pretty-table">
+  <thead>
+    <tr>
+      <th>Producto</th>
+      <th>Categoría</th>
+      <th>Precio</th>
+      <th>Stock</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Manzana</td>
+      <td>Fruta</td>
+      <td>$1.25</td>
+      <td>120</td>
+    </tr>
+    <tr>
+      <td>Leche</td>
+      <td>Alimentos</td>
+      <td>$2.50</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <td>Cereal</td>
+      <td>Desayuno</td>
+      <td>$3.00</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Pan</td>
+      <td>Alimentos</td>
+      <td>$1.75</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>Tomates</td>
+      <td>Verdura</td>
+      <td>$2.00</td>
+      <td>150</td>
+    </tr>
+    <tr>
+      <td>Arroz</td>
+      <td>Granos</td>
+      <td>$1.80</td>
+      <td>300</td>
+    </tr>
+    <tr>
+      <td>Pollo</td>
+      <td>Carne</td>
+      <td>$5.50</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>Yogurt</td>
+      <td>Lácteos</td>
+      <td>$1.60</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Queso</td>
+      <td>Lácteos</td>
+      <td>$4.20</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Jugo</td>
+      <td>Bebidas</td>
+      <td>$2.30</td>
+      <td>130</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+::: notes
+Podemos incluir tablas
+:::
+
+
+
+# <span style="color: white;">¿Puedo usar Código? {background-image="images/institutional/SectionBack.png"}
+
+## Código en R {background-image="images/institutional/background.png"}
+
+<div class="content-wrapper">
+Podemos hacer uso de bloques de código con R. Observemos una lista:
+
+```{r}
+# List of values
+lista <- list(23, 45, 56, 78, 45, 23, 56, 67, 89, 45, 56, 67, 34, 23, 45, 23, 23, 23, 23, 78, 78, 78, 56, 56, 56, 56, 23, 34, 45, 89, 89, 89, 57, 56, 34, 34)
+
+# Convert list to a numeric vector and transpose it to display horizontally
+lista_numeric <- unlist(lista)
+
+# Create a data frame with one row, and remove column names
+lista_df_horizontal <- data.frame(t(lista_numeric))
+
+# Remove the column names to only show the values
+colnames(lista_df_horizontal) <- NULL
+
+# Print the table horizontally without column names
+print(lista_df_horizontal)
+```
+</div>
+
+::: notes
+Podemos crear listas
+:::
+
+## Código en R {background-image="images/institutional/background.png"}
+
+<div class="content-wrapper">
+Observemos gráficas
+
+```{r}
+# List of values
+hist(lista_numeric, main="Histograma de la Lista", xlab="Valores", col="lightblue", border="black")
+```
+</div>
+
+::: notes
+Podemos crear listas y generar gráficas con ellas
+:::
+
+## Código en R {background-image="images/institutional/background.png"}
+
+<div class="content-wrapper">
+Observemos gráficas
+
+```{r}
+# List of values
+boxplot(lista_numeric, main="Boxplot de la Lista", ylab="Valores", col="lightgreen", border="black")
+```
+</div>
+
+::: notes
+Podemos crear listas y generar gráficas con ellas
+:::
+
+## Código en R {background-image="images/institutional/background.png"}
+
+<div class="content-wrapper">
+Observemos gráficas
+
+```{r}
+
+plot(density(lista_numeric), main="Gráfico de Densidad de la Lista", xlab="Valores", ylab="Densidad", col="darkblue", lwd=2)
+```
+</div>
+
+::: notes
+Podemos crear listas y generar gráficas con ellas
+:::
+
+## Código en R {background-image="images/institutional/background.png"}
+
+<div class="content-wrapper">
+Observemos gráficas
+
+```{r}
+
+ecdf_plot <- ecdf(lista_numeric)
+plot(ecdf_plot, main="Función de Distribución Acumulada de la Lista", xlab="Valores", ylab="Probabilidad acumulada", col="darkgreen", lwd=2)
+```
+</div>
+
+::: notes
+Podemos crear listas y generar gráficas con ellas
+:::
+
+# <span style="color: white;">Gracias {background-image="images/institutional/SectionBack.png"}
