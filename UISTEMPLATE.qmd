@@ -1,7 +1,7 @@
 ---
 title: "Introducción a QUARTO"
 subtitle: "Semillero PredicPath"
-author: David E. Romo B.
+author: Juan C. Bayona Q..
 institute: Universidad Industrial de Santander
 
 format: 
